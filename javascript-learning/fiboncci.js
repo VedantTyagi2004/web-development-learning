@@ -15,7 +15,8 @@ else{
 } return arr;
 
 }
-var a = fibonacciGenerator(100);
-console.log(a);
+// test 
+var output= fibonacciGenerator(100);
+console.log(output);
 
 

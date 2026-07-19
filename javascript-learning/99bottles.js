@@ -1,5 +1,5 @@
-console.log("program started");
-function beer(){
+// console.log("program started");
+function bear(){
     var a = 99;
     while (a>1){
         console.log(a +" bottles of beer on the wall, "+ a+" bottles of beer");
@@ -14,4 +14,4 @@ function beer(){
 
     }
 }
-beer();
+bear();

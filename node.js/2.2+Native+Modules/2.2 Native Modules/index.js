@@ -1,4 +1,4 @@
-const fs=require("fs");
+const fs= require("fs");
 fs.writeFile("message.txt","this is meee , practicing node.js",(err)=>{
     if(err)throw err;
     console.log("file has been saved");

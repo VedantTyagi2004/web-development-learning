@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/register", (req, res) => {
-  //Do something with the data
+ 
   res.sendStatus(201);
 });
 
@@ -21,10 +21,10 @@ app.patch("/user/vedant", (req, res) => {
 });
 
 app.delete("/user/angela", (req, res) => {
-  //Deleting
+ 
   res.sendStatus(200);
 });
 
 app.listen(port, () => {
-  console.log(`Server started on port ${port}`);
+  console.log(`Server started on port: ${port}`);
 });

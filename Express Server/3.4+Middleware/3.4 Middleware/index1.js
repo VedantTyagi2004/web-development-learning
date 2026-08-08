@@ -1,5 +1,5 @@
 import express from "express";
-import { dirname } from "path";
+import { dirname } from "path" // these three are important to access to data  being added to form
 import { fileURLToPath } from "url";
 import bodyParser  from "body-parser"
 const __dirname = dirname(fileURLToPath(import.meta.url));

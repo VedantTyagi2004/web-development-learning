@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>ISS Finder</title>
+  </head>
+  <body>
+    <h1>Where is the ISS</h1>
+    <p>
+      International Space Station is a large, habitable spacecraft orbiting 402
+      Kms above Earth
+    </p>
+    <div class="container">
+      <div class="info-card">
+        <div id="current-location"><h2>Current ISS Location</h2></div>
+        <div id="main">
+          <div id="latitude">
+            <h2 style="font-size: small">latitude</h2>
+            <h2 id="lat-val">--</h2>
+          </div>
+          <div id="longitude">
+            <h2 style="font-size: small">longitude</h2>
+            <h2 id="long-val">--</h2>
+          </div>
+          <div id="altitude">
+            <h2 style="font-size: small">altitude</h2>
+            <h2 id="alt-val">--</h2>
+          </div>
+        </div>
+
+        <div><button>Get ISS Location</button></div>
+      </div>
+    </div>
+    <script src="index.js" charset="UTF-8"></script>
+  </body>
+</html>

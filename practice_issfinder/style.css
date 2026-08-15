@@ -1,0 +1,48 @@
+body{
+    background: #000;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin:0;
+    flex-direction: column;
+}
+h1{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+.container{
+    color: aliceblue;
+}
+.info-card{
+    width: 350px;
+    padding: 30px;
+    border-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#main> div{
+    text-align: center;
+
+}
+
+button{
+    background-color:aliceblue;
+    color:#000;
+    padding: 1px;
+    border: 1px solid aliceblue;
+    border-radius: 1px;
+    cursor:cell;
+    margin: 0;
+}
+#lat-val,#long-val,#alt-val{
+    font-size: large;
+}
